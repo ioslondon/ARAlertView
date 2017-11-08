@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E88F5F2A1FB3A24E00457021 /* ARAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F5F291FB3A24E00457021 /* ARAlert.swift */; };
+		E88F5F2A1FB3A24E00457021 /* ARAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F5F291FB3A24E00457021 /* ARAlertView.swift */; };
 		E896AF291FB3265000F26159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896AF281FB3265000F26159 /* AppDelegate.swift */; };
 		E896AF2B1FB3265000F26159 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E896AF2A1FB3265000F26159 /* art.scnassets */; };
 		E896AF2D1FB3265000F26159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896AF2C1FB3265000F26159 /* ViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E88F5F291FB3A24E00457021 /* ARAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAlert.swift; sourceTree = "<group>"; };
+		E88F5F291FB3A24E00457021 /* ARAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAlertView.swift; sourceTree = "<group>"; };
 		E896AF251FB3265000F26159 /* aralertview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aralertview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E896AF281FB3265000F26159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E896AF2A1FB3265000F26159 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		E896AF271FB3265000F26159 /* aralertview */ = {
 			isa = PBXGroup;
 			children = (
-				E88F5F291FB3A24E00457021 /* ARAlert.swift */,
+				E88F5F291FB3A24E00457021 /* ARAlertView.swift */,
 				E896AF281FB3265000F26159 /* AppDelegate.swift */,
 				E896AF2A1FB3265000F26159 /* art.scnassets */,
 				E896AF2C1FB3265000F26159 /* ViewController.swift */,
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88F5F2A1FB3A24E00457021 /* ARAlert.swift in Sources */,
+				E88F5F2A1FB3A24E00457021 /* ARAlertView.swift in Sources */,
 				E896AF2D1FB3265000F26159 /* ViewController.swift in Sources */,
 				E896AF291FB3265000F26159 /* AppDelegate.swift in Sources */,
 			);

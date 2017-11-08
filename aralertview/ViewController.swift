@@ -14,7 +14,13 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-	let alert = ARAlert(alertText: "this is working!", buttonText: "whatever")
+	let alert = ARAlertView(alertText:
+		"""
+This is an
+Augmented Reality
+Alert View.
+"""
+		, buttonText: "OK", buttonColor: .red)
 
 	//MARK: INTERACTIONS
 	
